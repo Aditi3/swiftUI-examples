@@ -26,14 +26,7 @@ struct ContentView: View {
                     .font(.system(size: 18))
                     .foregroundColor(.white)
                 Divider()
-                RoundedRectangle(cornerRadius: 20)
-                    .frame(height: 44)
-                    .foregroundColor(.white)
-                    .overlay(  HStack {
-                        Image(systemName: "phone.fill")
-                            .foregroundColor(.black)
-                        Text("+91 98 33 1** 2**")
-                    })
+                  InfoView(text: "aditi.gvc@gmail.com", imageName: "mail.fill")
                 
             }
         }
@@ -43,5 +36,21 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+    }
+}
+
+struct InfoView: View {
+    let text: String
+    let imageName: String
+    var body: some View {
+        RoundedRectangle(cornerRadius: 20)
+            .frame(height: 40)
+            .foregroundColor(.white)
+            .overlay(  HStack {
+                Image(systemName: imageName)
+                    .foregroundColor(.black)
+                Text(text)
+            })
+            .padding(.all)
     }
 }
