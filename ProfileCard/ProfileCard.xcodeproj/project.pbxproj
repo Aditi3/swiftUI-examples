@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,7 +13,6 @@
 		4925A4BF26787181003805BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4925A4BE26787181003805BA /* Assets.xcassets */; };
 		4925A4C226787181003805BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4925A4C126787181003805BA /* Preview Assets.xcassets */; };
 		4925A4C526787181003805BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4925A4C326787181003805BA /* LaunchScreen.storyboard */; };
-		4925A4CE2678719B003805BA /* DancingScript-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4925A4CD2678719B003805BA /* DancingScript-VariableFont_wght.ttf */; };
 		4925A4D326787241003805BA /* DancingScript-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4925A4CF26787241003805BA /* DancingScript-Bold.ttf */; };
 		4925A4D426787241003805BA /* DancingScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4925A4D026787241003805BA /* DancingScript-Regular.ttf */; };
 		4925A4D526787241003805BA /* DancingScript-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4925A4D126787241003805BA /* DancingScript-Medium.ttf */; };
@@ -30,7 +29,6 @@
 		4925A4C126787181003805BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4925A4C426787181003805BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4925A4C626787181003805BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4925A4CD2678719B003805BA /* DancingScript-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		4925A4CF26787241003805BA /* DancingScript-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-Bold.ttf"; sourceTree = "<group>"; };
 		4925A4D026787241003805BA /* DancingScript-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-Regular.ttf"; sourceTree = "<group>"; };
 		4925A4D126787241003805BA /* DancingScript-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-Medium.ttf"; sourceTree = "<group>"; };
@@ -92,7 +90,6 @@
 		4925A4CC2678718F003805BA /* fonts */ = {
 			isa = PBXGroup;
 			children = (
-				4925A4CD2678719B003805BA /* DancingScript-VariableFont_wght.ttf */,
 				4925A4CF26787241003805BA /* DancingScript-Bold.ttf */,
 				4925A4D126787241003805BA /* DancingScript-Medium.ttf */,
 				4925A4D026787241003805BA /* DancingScript-Regular.ttf */,
@@ -129,6 +126,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
+				ORGANIZATIONNAME = "Aditi Agrawal";
 				TargetAttributes = {
 					4925A4B426787180003805BA = {
 						CreatedOnToolsVersion = 12.5;
@@ -136,7 +134,7 @@
 				};
 			};
 			buildConfigurationList = 4925A4B026787180003805BA /* Build configuration list for PBXProject "ProfileCard" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -163,7 +161,6 @@
 				4925A4BF26787181003805BA /* Assets.xcassets in Resources */,
 				4925A4D626787241003805BA /* DancingScript-SemiBold.ttf in Resources */,
 				4925A4D526787241003805BA /* DancingScript-Medium.ttf in Resources */,
-				4925A4CE2678719B003805BA /* DancingScript-VariableFont_wght.ttf in Resources */,
 				4925A4D326787241003805BA /* DancingScript-Bold.ttf in Resources */,
 				4925A4D426787241003805BA /* DancingScript-Regular.ttf in Resources */,
 			);
@@ -322,6 +319,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ProfileCard/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ProfileCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -342,6 +340,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ProfileCard/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ProfileCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

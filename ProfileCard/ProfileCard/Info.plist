@@ -60,7 +60,6 @@
 	</array>
 	<key>UIAppFonts</key>
 	<array>
-		<string>DancingScript-VariableFont_wght.ttf</string>
 		<string>DancingScript-Bold.ttf</string>
 		<string>DancingScript-Medium.ttf</string>
 		<string>DancingScript-Regular.ttf</string>
