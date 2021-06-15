@@ -18,6 +18,7 @@
 		4925A4D426787241003805BA /* DancingScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4925A4D026787241003805BA /* DancingScript-Regular.ttf */; };
 		4925A4D526787241003805BA /* DancingScript-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4925A4D126787241003805BA /* DancingScript-Medium.ttf */; };
 		4925A4D626787241003805BA /* DancingScript-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4925A4D226787241003805BA /* DancingScript-SemiBold.ttf */; };
+		4925A4DC267885C6003805BA /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4925A4DB267885C6003805BA /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		4925A4D026787241003805BA /* DancingScript-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-Regular.ttf"; sourceTree = "<group>"; };
 		4925A4D126787241003805BA /* DancingScript-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-Medium.ttf"; sourceTree = "<group>"; };
 		4925A4D226787241003805BA /* DancingScript-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-SemiBold.ttf"; sourceTree = "<group>"; };
+		4925A4DB267885C6003805BA /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				4925A4B826787180003805BA /* AppDelegate.swift */,
 				4925A4BA26787180003805BA /* SceneDelegate.swift */,
 				4925A4BC26787180003805BA /* ContentView.swift */,
+				4925A4DB267885C6003805BA /* InfoView.swift */,
 				4925A4BE26787181003805BA /* Assets.xcassets */,
 				4925A4C326787181003805BA /* LaunchScreen.storyboard */,
 				4925A4C626787181003805BA /* Info.plist */,
@@ -173,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4925A4DC267885C6003805BA /* InfoView.swift in Sources */,
 				4925A4B926787180003805BA /* AppDelegate.swift in Sources */,
 				4925A4BB26787180003805BA /* SceneDelegate.swift in Sources */,
 				4925A4BD26787180003805BA /* ContentView.swift in Sources */,

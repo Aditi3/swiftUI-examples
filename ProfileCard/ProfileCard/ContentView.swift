@@ -18,15 +18,15 @@ struct ContentView: View {
                     .frame(width: 100.0, height: 100.0, alignment: .center)
                     .clipShape(Circle())
                     .overlay(Circle().stroke(Color.white, lineWidth: 5))
-                Text("Aditi Agrawal")
-                    .font(.custom("DancingScript-Bold", size: 44))
+                Text("Aditi Agrawal ")
+                    .font(.custom("DancingScript-Bold", size: 40))
                     .bold()
                     .foregroundColor(.white)
                 Text("iOS Engineer")
                     .font(.system(size: 18))
                     .foregroundColor(.white)
                 Divider()
-                  InfoView(text: "aditi.gvc@gmail.com", imageName: "mail.fill")
+                InfoView(text: "aditi.gvc@gmail.com", imageName: "envelope.fill")
                 
             }
         }
@@ -39,18 +39,3 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-struct InfoView: View {
-    let text: String
-    let imageName: String
-    var body: some View {
-        RoundedRectangle(cornerRadius: 20)
-            .frame(height: 40)
-            .foregroundColor(.white)
-            .overlay(  HStack {
-                Image(systemName: imageName)
-                    .foregroundColor(.black)
-                Text(text)
-            })
-            .padding(.all)
-    }
-}
