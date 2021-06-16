@@ -14,10 +14,13 @@ struct ContentView: View {
     
     var body: some View {
         ZStack {
-            Color(red: 0.97, green: 0.95, blue: 0.89)
+            Image("diceLogo")
+                .resizable()
                 .edgesIgnoringSafeArea(.all)
+                .opacity(0.3)
+                .background(Color.gray)
+                .ignoresSafeArea()
             VStack {
-                Image("diceeLogo")
                 Spacer()
                 HStack {
                     DiceView(n: leftSideNumber)
@@ -48,6 +51,8 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environment(\.sizeCategory, .small)
+            .previewDevice("iPhone 12 Pro")
     }
 }
 
