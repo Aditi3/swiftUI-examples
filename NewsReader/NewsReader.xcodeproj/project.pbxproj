@@ -62,8 +62,8 @@
 		492BC242267A0ECE00414700 /* NewsReader */ = {
 			isa = PBXGroup;
 			children = (
-				492BC257267A118F00414700 /* Model */,
 				492BC243267A0ECE00414700 /* AppDelegate.swift */,
+				492BC257267A118F00414700 /* Model */,
 				492BC25C267A235500414700 /* Views */,
 				492BC249267A0ED000414700 /* Assets.xcassets */,
 				492BC24E267A0ED000414700 /* LaunchScreen.storyboard */,
