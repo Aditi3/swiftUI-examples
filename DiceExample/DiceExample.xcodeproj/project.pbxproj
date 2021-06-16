@@ -3,26 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 53;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		49DBAE962679ACEE00F86BE4 /* DiceSwiftUIExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DBAE952679ACEE00F86BE4 /* DiceSwiftUIExampleApp.swift */; };
-		49DBAE982679ACEE00F86BE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DBAE972679ACEE00F86BE4 /* ContentView.swift */; };
-		49DBAE9A2679ACEF00F86BE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49DBAE992679ACEF00F86BE4 /* Assets.xcassets */; };
-		49DBAE9D2679ACEF00F86BE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49DBAE9C2679ACEF00F86BE4 /* Preview Assets.xcassets */; };
+		4971EA452679B6B200D7AE27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4971EA442679B6B200D7AE27 /* AppDelegate.swift */; };
+		4971EA472679B6B200D7AE27 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4971EA462679B6B200D7AE27 /* SceneDelegate.swift */; };
+		4971EA492679B6B200D7AE27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4971EA482679B6B200D7AE27 /* ContentView.swift */; };
+		4971EA4B2679B6B500D7AE27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4971EA4A2679B6B500D7AE27 /* Assets.xcassets */; };
+		4971EA4E2679B6B500D7AE27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4971EA4D2679B6B500D7AE27 /* Preview Assets.xcassets */; };
+		4971EA512679B6B500D7AE27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4971EA4F2679B6B500D7AE27 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		49DBAE922679ACEE00F86BE4 /* DiceSwiftUIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceSwiftUIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		49DBAE952679ACEE00F86BE4 /* DiceSwiftUIExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceSwiftUIExampleApp.swift; sourceTree = "<group>"; };
-		49DBAE972679ACEE00F86BE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		49DBAE992679ACEF00F86BE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		49DBAE9C2679ACEF00F86BE4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4971EA412679B6B200D7AE27 /* DiceExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4971EA442679B6B200D7AE27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4971EA462679B6B200D7AE27 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4971EA482679B6B200D7AE27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4971EA4A2679B6B500D7AE27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4971EA4D2679B6B500D7AE27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4971EA502679B6B500D7AE27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4971EA522679B6B500D7AE27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		49DBAE8F2679ACEE00F86BE4 /* Frameworks */ = {
+		4971EA3E2679B6B200D7AE27 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +37,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		49DBAE892679ACEE00F86BE4 = {
+		4971EA382679B6B200D7AE27 = {
 			isa = PBXGroup;
 			children = (
-				49DBAE942679ACEE00F86BE4 /* DiceSwiftUIExample */,
-				49DBAE932679ACEE00F86BE4 /* Products */,
+				4971EA432679B6B200D7AE27 /* DiceExample */,
+				4971EA422679B6B200D7AE27 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		49DBAE932679ACEE00F86BE4 /* Products */ = {
+		4971EA422679B6B200D7AE27 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				49DBAE922679ACEE00F86BE4 /* DiceSwiftUIExample.app */,
+				4971EA412679B6B200D7AE27 /* DiceExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		49DBAE942679ACEE00F86BE4 /* DiceSwiftUIExample */ = {
+		4971EA432679B6B200D7AE27 /* DiceExample */ = {
 			isa = PBXGroup;
 			children = (
-				49DBAE952679ACEE00F86BE4 /* DiceSwiftUIExampleApp.swift */,
-				49DBAE972679ACEE00F86BE4 /* ContentView.swift */,
-				49DBAE992679ACEF00F86BE4 /* Assets.xcassets */,
-				49DBAE9B2679ACEF00F86BE4 /* Preview Content */,
+				4971EA442679B6B200D7AE27 /* AppDelegate.swift */,
+				4971EA462679B6B200D7AE27 /* SceneDelegate.swift */,
+				4971EA482679B6B200D7AE27 /* ContentView.swift */,
+				4971EA4A2679B6B500D7AE27 /* Assets.xcassets */,
+				4971EA4F2679B6B500D7AE27 /* LaunchScreen.storyboard */,
+				4971EA522679B6B500D7AE27 /* Info.plist */,
+				4971EA4C2679B6B500D7AE27 /* Preview Content */,
 			);
-			path = DiceSwiftUIExample;
+			path = DiceExample;
 			sourceTree = "<group>";
 		};
-		49DBAE9B2679ACEF00F86BE4 /* Preview Content */ = {
+		4971EA4C2679B6B500D7AE27 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				49DBAE9C2679ACEF00F86BE4 /* Preview Assets.xcassets */,
+				4971EA4D2679B6B500D7AE27 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,82 +78,94 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		49DBAE912679ACEE00F86BE4 /* DiceSwiftUIExample */ = {
+		4971EA402679B6B200D7AE27 /* DiceExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 49DBAEA02679ACEF00F86BE4 /* Build configuration list for PBXNativeTarget "DiceSwiftUIExample" */;
+			buildConfigurationList = 4971EA552679B6B500D7AE27 /* Build configuration list for PBXNativeTarget "DiceExample" */;
 			buildPhases = (
-				49DBAE8E2679ACEE00F86BE4 /* Sources */,
-				49DBAE8F2679ACEE00F86BE4 /* Frameworks */,
-				49DBAE902679ACEE00F86BE4 /* Resources */,
+				4971EA3D2679B6B200D7AE27 /* Sources */,
+				4971EA3E2679B6B200D7AE27 /* Frameworks */,
+				4971EA3F2679B6B200D7AE27 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = DiceSwiftUIExample;
-			productName = DiceSwiftUIExample;
-			productReference = 49DBAE922679ACEE00F86BE4 /* DiceSwiftUIExample.app */;
+			name = DiceExample;
+			productName = DiceExample;
+			productReference = 4971EA412679B6B200D7AE27 /* DiceExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		49DBAE8A2679ACEE00F86BE4 /* Project object */ = {
+		4971EA392679B6B200D7AE27 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					49DBAE912679ACEE00F86BE4 = {
-						CreatedOnToolsVersion = 13.0;
+					4971EA402679B6B200D7AE27 = {
+						CreatedOnToolsVersion = 12.5;
 					};
 				};
 			};
-			buildConfigurationList = 49DBAE8D2679ACEE00F86BE4 /* Build configuration list for PBXProject "DiceSwiftUIExample" */;
-			compatibilityVersion = "Xcode 11.0";
+			buildConfigurationList = 4971EA3C2679B6B200D7AE27 /* Build configuration list for PBXProject "DiceExample" */;
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 49DBAE892679ACEE00F86BE4;
-			productRefGroup = 49DBAE932679ACEE00F86BE4 /* Products */;
+			mainGroup = 4971EA382679B6B200D7AE27;
+			productRefGroup = 4971EA422679B6B200D7AE27 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				49DBAE912679ACEE00F86BE4 /* DiceSwiftUIExample */,
+				4971EA402679B6B200D7AE27 /* DiceExample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		49DBAE902679ACEE00F86BE4 /* Resources */ = {
+		4971EA3F2679B6B200D7AE27 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49DBAE9D2679ACEF00F86BE4 /* Preview Assets.xcassets in Resources */,
-				49DBAE9A2679ACEF00F86BE4 /* Assets.xcassets in Resources */,
+				4971EA512679B6B500D7AE27 /* LaunchScreen.storyboard in Resources */,
+				4971EA4E2679B6B500D7AE27 /* Preview Assets.xcassets in Resources */,
+				4971EA4B2679B6B500D7AE27 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		49DBAE8E2679ACEE00F86BE4 /* Sources */ = {
+		4971EA3D2679B6B200D7AE27 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49DBAE982679ACEE00F86BE4 /* ContentView.swift in Sources */,
-				49DBAE962679ACEE00F86BE4 /* DiceSwiftUIExampleApp.swift in Sources */,
+				4971EA452679B6B200D7AE27 /* AppDelegate.swift in Sources */,
+				4971EA472679B6B200D7AE27 /* SceneDelegate.swift in Sources */,
+				4971EA492679B6B200D7AE27 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		4971EA4F2679B6B500D7AE27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4971EA502679B6B500D7AE27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		49DBAE9E2679ACEF00F86BE4 /* Debug */ = {
+		4971EA532679B6B500D7AE27 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -196,7 +216,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -206,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		49DBAE9F2679ACEF00F86BE4 /* Release */ = {
+		4971EA542679B6B500D7AE27 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -251,7 +271,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -261,61 +281,43 @@
 			};
 			name = Release;
 		};
-		49DBAEA12679ACEF00F86BE4 /* Debug */ = {
+		4971EA562679B6B500D7AE27 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DiceSwiftUIExample/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DiceExample/Preview Content\"";
 				DEVELOPMENT_TEAM = A5J34NR598;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				INFOPLIST_FILE = DiceExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		49DBAEA22679ACEF00F86BE4 /* Release */ = {
+		4971EA572679B6B500D7AE27 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DiceSwiftUIExample/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DiceExample/Preview Content\"";
 				DEVELOPMENT_TEAM = A5J34NR598;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				INFOPLIST_FILE = DiceExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -324,25 +326,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		49DBAE8D2679ACEE00F86BE4 /* Build configuration list for PBXProject "DiceSwiftUIExample" */ = {
+		4971EA3C2679B6B200D7AE27 /* Build configuration list for PBXProject "DiceExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				49DBAE9E2679ACEF00F86BE4 /* Debug */,
-				49DBAE9F2679ACEF00F86BE4 /* Release */,
+				4971EA532679B6B500D7AE27 /* Debug */,
+				4971EA542679B6B500D7AE27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		49DBAEA02679ACEF00F86BE4 /* Build configuration list for PBXNativeTarget "DiceSwiftUIExample" */ = {
+		4971EA552679B6B500D7AE27 /* Build configuration list for PBXNativeTarget "DiceExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				49DBAEA12679ACEF00F86BE4 /* Debug */,
-				49DBAEA22679ACEF00F86BE4 /* Release */,
+				4971EA562679B6B500D7AE27 /* Debug */,
+				4971EA572679B6B500D7AE27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 49DBAE8A2679ACEE00F86BE4 /* Project object */;
+	rootObject = 4971EA392679B6B200D7AE27 /* Project object */;
 }

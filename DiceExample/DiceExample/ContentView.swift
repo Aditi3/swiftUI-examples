@@ -34,7 +34,8 @@ struct ContentView: View {
                         .font(.system(size: 30))
                         .fontWeight(.heavy)
                         .foregroundColor(.white)
-                        .padding(EdgeInsets())
+                        .padding(.horizontal, 20)
+                        .padding(.vertical, 10)
                 }
                 .background(Color(red: 0.13, green: 0.44, blue: 0.58))
                 .cornerRadius(10)
@@ -60,3 +61,4 @@ struct DiceView: View {
             .padding(.all)
     }
 }
+
