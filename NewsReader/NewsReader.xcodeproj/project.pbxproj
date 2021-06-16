@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		492BC244267A0ECE00414700 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492BC243267A0ECE00414700 /* AppDelegate.swift */; };
-		492BC246267A0ECE00414700 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492BC245267A0ECE00414700 /* SceneDelegate.swift */; };
 		492BC248267A0ECE00414700 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492BC247267A0ECE00414700 /* ContentView.swift */; };
 		492BC24A267A0ED000414700 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492BC249267A0ED000414700 /* Assets.xcassets */; };
 		492BC24D267A0ED000414700 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492BC24C267A0ED000414700 /* Preview Assets.xcassets */; };
@@ -22,7 +21,6 @@
 /* Begin PBXFileReference section */
 		492BC240267A0ECE00414700 /* NewsReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		492BC243267A0ECE00414700 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		492BC245267A0ECE00414700 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		492BC247267A0ECE00414700 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		492BC249267A0ED000414700 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		492BC24C267A0ED000414700 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -66,7 +64,6 @@
 			children = (
 				492BC257267A118F00414700 /* Model */,
 				492BC243267A0ECE00414700 /* AppDelegate.swift */,
-				492BC245267A0ECE00414700 /* SceneDelegate.swift */,
 				492BC25C267A235500414700 /* Views */,
 				492BC249267A0ED000414700 /* Assets.xcassets */,
 				492BC24E267A0ED000414700 /* LaunchScreen.storyboard */,
@@ -177,7 +174,6 @@
 				492BC25E267A236C00414700 /* DetailView.swift in Sources */,
 				492BC259267A11BB00414700 /* NetworkManager.swift in Sources */,
 				492BC244267A0ECE00414700 /* AppDelegate.swift in Sources */,
-				492BC246267A0ECE00414700 /* SceneDelegate.swift in Sources */,
 				492BC248267A0ECE00414700 /* ContentView.swift in Sources */,
 				492BC260267A266700414700 /* WebView.swift in Sources */,
 			);
