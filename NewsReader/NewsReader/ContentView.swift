@@ -9,8 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List(posts) { post in
+                Text(post.title)
+            }
+            .navigationBarTitle("Hacker News")
+        }
     }
 }
 
@@ -19,3 +23,13 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+struct Post: Identifiable {
+    let id, title: String
+}
+
+let posts = [
+    Post(id: "11", title: "Hello"),
+    Post(id: "12", title: "World"),
+]
+
