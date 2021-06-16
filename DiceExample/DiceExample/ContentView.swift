@@ -14,12 +14,7 @@ struct ContentView: View {
     
     var body: some View {
         ZStack {
-            Image("diceLogo")
-                .resizable()
-                .edgesIgnoringSafeArea(.all)
-                .opacity(0.3)
-                .background(Color.gray)
-                .ignoresSafeArea()
+            Color("bgColor")
             VStack {
                 Spacer()
                 HStack {
@@ -37,10 +32,10 @@ struct ContentView: View {
                         .font(.system(size: 30))
                         .fontWeight(.heavy)
                         .foregroundColor(.white)
-                        .padding(.horizontal, 20)
+                        .padding(.horizontal, 30)
                         .padding(.vertical, 10)
                 }
-                .background(Color(red: 0.13, green: 0.44, blue: 0.58))
+                .background(Color.secondary)
                 .cornerRadius(10)
                 Spacer()
             }
@@ -51,6 +46,7 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .preferredColorScheme(.dark)
             .environment(\.sizeCategory, .small)
             .previewDevice("iPhone 12 Pro")
     }
