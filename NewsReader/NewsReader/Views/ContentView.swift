@@ -14,12 +14,16 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List(networkManager.posts) { post in
-                HStack {
-                    Text(String(post.points))
-                        .padding()
-                    Text(post.title)
-                        .padding()
-                }
+                NavigationLink (
+                    destination: DetailView(url: post.url),
+                    label: {
+                        HStack {
+                            Text(String(post.points))
+                                .padding()
+                            Text(post.title)
+                                .padding()
+                        }
+                    })
             }
             .navigationBarTitle("Hacker News")
             
