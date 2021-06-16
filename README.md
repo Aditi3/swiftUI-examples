@@ -20,5 +20,6 @@ A repository consists of simple Swift UI Examples
 <img src="/Documentation/image_2.png" width="150">
 <img src="/Documentation/image_3.png" width="150">
 <img src="/Documentation/image_4.png" width="150">
+<img src="/Documentation/image_5.png" width="150">
 </p>
 
