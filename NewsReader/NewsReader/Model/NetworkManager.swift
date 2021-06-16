@@ -12,7 +12,7 @@ class NetworkManager: ObservableObject {
     @Published var posts = [Post]()
     
     private let hnURL = "http://hn.algolia.com/api/v1/search?tags=front_page"
-
+    
     
     func fetchData() {
         // Create a URL
@@ -32,7 +32,7 @@ class NetworkManager: ObservableObject {
                         self.posts = results.hits
                     }
                 } catch {
-                    print(error)
+                    print("Error parsing the Json \(error)")
                 }
             }
         })

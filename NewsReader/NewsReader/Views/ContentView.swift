@@ -14,9 +14,15 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List(networkManager.posts) { post in
-                Text(post.title)
+                HStack {
+                    Text(String(post.points))
+                        .padding()
+                    Text(post.title)
+                        .padding()
+                }
             }
             .navigationBarTitle("Hacker News")
+            
         }
         .onAppear {
             self.networkManager.fetchData()
