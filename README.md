@@ -4,7 +4,7 @@ A repository consists of simple Swift UI Examples
 
 <img src="/Documentation/dice.gif" alt="App Quick View" width="320" height="690" align="right">
 
-## Features:
+## Features
 
 - Practice with Layouts
 - Work with Color, Images, Stacks, Text, Spacers, padding and Buttons
