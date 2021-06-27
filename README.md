@@ -16,11 +16,11 @@ A repository consists of simple Swift UI Examples
 ## Screenshots
 
 <p float="left"> 
-<img src="/Documentation/image_0.png" width="150">
-<img src="/Documentation/image_1.png" width="150">
-<img src="/Documentation/image_2.png" width="150">
-<img src="/Documentation/image_3.png" width="150">
-<img src="/Documentation/image_4.png" width="150">
-<img src="/Documentation/image_5.png" width="150">
+<img src="/Documentation/image_0.png" width="150"> &nbsp &nbsp
+<img src="/Documentation/image_1.png" width="150"> &nbsp &nbsp  
+<img src="/Documentation/image_2.png" width="150"> <br /> <br />
+<img src="/Documentation/image_3.png" width="150"> &nbsp &nbsp
+<img src="/Documentation/image_4.png" width="150"> &nbsp &nbsp
+<img src="/Documentation/image_5.png" width="150"> 
 </p>
 
